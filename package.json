@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "homepage": "http://jd-heyns.github.io/portfolio",
-=======
   "homepage": "https://jd-heyns.github.io/portfolio",
->>>>>>> 1211350f87fc8681805dbfde8e801316884b42b5
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
